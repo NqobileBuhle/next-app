@@ -3,8 +3,8 @@ import React from 'react'
 
 const AddToCart = () => {
   return (
-    <div className='bg-pink-500 '>
-      <button onClick={()=>console.log('Click')}>Add to Cart</button>
+    <div  >
+      <button className='btn btn-secondary' onClick={()=>console.log('Click')}>Add to Cart</button>
     </div>
   )
 }
